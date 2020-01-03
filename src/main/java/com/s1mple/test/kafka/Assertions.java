@@ -1,5 +1,8 @@
 package com.s1mple.test.kafka;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONException;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class Assertions {
