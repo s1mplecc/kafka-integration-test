@@ -1,12 +1,9 @@
 package com.s1mple.test.kafka;
 
 import com.alibaba.fastjson.JSONArray;
-import com.caacetc.bigdata.airdata.config.ConfigFactory;
-import com.caacetc.bigdata.airdata.tools.test.core.dsl.await.DSLAwaitMultiRecordsStep;
-import com.caacetc.bigdata.airdata.tools.test.core.exceptions.AwaitTimeoutException;
-import com.caacetc.bigdata.airdata.tools.test.core.exceptions.SendTimeoutException;
-import com.caacetc.bigdata.haina.utils.file.ResourceFile;
-import com.caacetc.bigdata.haina.utils.json.JsonObject;
+import com.s1mple.test.kafka.core.dsl.await.DSLAwaitMultiRecordsStep;
+import com.s1mple.test.kafka.core.exceptions.AwaitTimeoutException;
+import com.s1mple.test.kafka.core.exceptions.SendTimeoutException;
 import lombok.Data;
 import org.junit.Before;
 import org.junit.Ignore;

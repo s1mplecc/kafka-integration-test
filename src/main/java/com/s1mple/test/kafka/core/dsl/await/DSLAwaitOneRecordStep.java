@@ -1,5 +1,7 @@
 package com.s1mple.test.kafka.core.dsl.await;
 
+import com.alibaba.fastjson.JSONArray;
+
 public interface DSLAwaitOneRecordStep extends DSLAwaitRecordStep, DSLAwaitOneRecordOutputStep, DSLAwaitOneRecordConvertStep {
 
     @Override

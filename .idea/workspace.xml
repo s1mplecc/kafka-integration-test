@@ -2,57 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cbb4511-8ea6-4a7e-8dd2-a44c7283de2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-integration-test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/Assertions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/JobIntegrationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/KafkaSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/DSLAwaitFromStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/DSLAwaitIndexStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/DSLAwaitLoadConfigStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/DSLAwaitMultiFromStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/DSLAwaitMultiLoadConfigStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/DSLAwaitMultiRecordsConvertStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/DSLAwaitMultiRecordsFetchOneStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/DSLAwaitMultiRecordsStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/DSLAwaitOneFromStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/DSLAwaitOneLoadConfigStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/DSLAwaitOneRecordConvertStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/DSLAwaitOneRecordOutputStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/DSLAwaitOneRecordStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/DSLAwaitRecordStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/DSLAwaitStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/impl/AbstractDSLAwaitFromStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/impl/AbstractDSLAwaitLoadConfigStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/impl/DSLAwaitIndexStepImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/impl/DSLAwaitMultiFromStepImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/impl/DSLAwaitMultiLoadConfigStepImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/impl/DSLAwaitMultiRecordsStepImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/impl/DSLAwaitOneFromStepImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/impl/DSLAwaitOneLoadConfigStepImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/impl/DSLAwaitOneRecordStepImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/send/DSLSendStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/send/DSLSendToStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/send/DSLSentLoadConfigStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/send/impl/DSLSendToStepImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/send/impl/DSLSentLoadConfigStepImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/start/DSLPrepareStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/start/DSLStartStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/exceptions/AwaitTimeoutException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/exceptions/InvalidIntegrationTestNameException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/exceptions/SendNullValueException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/exceptions/SendTimeoutException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/s1mple/test/kafka/KafkaSuiteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/kafka/test-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/kafka/test-suite-array.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/kafka/test-suite.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/logback-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/DSLAwaitOneRecordConvertStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/DSLAwaitOneRecordConvertStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/DSLAwaitOneRecordStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/DSLAwaitOneRecordStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/impl/DSLAwaitOneRecordStepImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/impl/DSLAwaitOneRecordStepImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/s1mple/test/kafka/KafkaSuiteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/s1mple/test/kafka/KafkaSuiteTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -68,54 +22,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/start/DSLPrepareStep.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/start/DSLStartStep.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/exceptions/AwaitTimeoutException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/exceptions/InvalidIntegrationTestNameException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/exceptions/SendNullValueException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/exceptions/SendTimeoutException.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -155,12 +61,62 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+            <state relative-caret-position="289">
+              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/s1mple/test/kafka/KafkaSuiteTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/DSLAwaitOneRecordStep.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/DSLAwaitOneRecordConvertStep.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/DSLAwaitRecordStep.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/impl/DSLAwaitOneRecordStepImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1272">
+              <caret line="59" column="20" lean-forward="true" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1141#1142#0" expanded="true" />
+                <element signature="e#1229#1230#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -187,11 +143,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/s1mple/KafkaSuite.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/s1mple/test/kafka/KafkaSuiteTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/config/core/Config.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/config/core/AbstractConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/KafkaSuite.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/impl/DSLAwaitMultiFromStepImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/impl/DSLAwaitIndexStepImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/impl/AbstractDSLAwaitFromStep.java" />
@@ -200,10 +154,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/impl/DSLAwaitMultiRecordsStepImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/impl/DSLAwaitMultiLoadConfigStepImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/impl/DSLAwaitOneLoadConfigStepImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/impl/DSLAwaitOneRecordStepImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/DSLAwaitOneRecordConvertStep.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/DSLAwaitOneRecordOutputStep.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/DSLAwaitOneRecordStep.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/send/impl/DSLSendToStepImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/send/impl/DSLSentLoadConfigStepImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/send/DSLSendStep.java" />
@@ -211,6 +162,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/start/DSLStartStep.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/Assertions.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/JobIntegrationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/s1mple/test/kafka/KafkaSuiteTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/DSLAwaitOneRecordStep.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/DSLAwaitOneRecordConvertStep.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/impl/DSLAwaitOneRecordStepImpl.java" />
       </list>
     </option>
   </component>
@@ -317,7 +273,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="Lombok plugin" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -359,12 +315,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578051264731</updated>
-      <workItem from="1578051269593" duration="2423000" />
+      <workItem from="1578051269593" duration="2837000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2423000" />
+    <option name="totallyTimeSpent" value="2837000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="0" width="1920" height="1080" extended-state="6" />
@@ -372,12 +328,12 @@
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32996973" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32996973" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32996973" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32996973" />
@@ -400,14 +356,36 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="#1 - s1mple - modify module dependencies" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/Override.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/config/core/customize/EsConfig.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -523,13 +501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/impl/DSLAwaitOneRecordStepImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/DSLAwaitFromStep.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -600,13 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/DSLAwaitOneRecordConvertStep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/DSLAwaitOneRecordOutputStep.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -614,21 +578,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/DSLAwaitOneRecordStep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/DSLAwaitStep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/DSLAwaitRecordStep.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
@@ -742,11 +692,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/DSLAwaitRecordStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/impl/DSLAwaitOneRecordStepImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1272">
+          <caret line="59" column="20" lean-forward="true" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1141#1142#0" expanded="true" />
+            <element signature="e#1229#1230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/DSLAwaitOneRecordStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/s1mple/test/kafka/core/dsl/await/DSLAwaitOneRecordConvertStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        <state relative-caret-position="289">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/s1mple/test/kafka/KafkaSuiteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
         </state>
       </provider>
     </entry>
